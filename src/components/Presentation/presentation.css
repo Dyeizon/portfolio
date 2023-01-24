@@ -1,0 +1,55 @@
+.presentation {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-top: -80px;
+}
+
+h2 {
+    color: #0582CA;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 5em;
+    margin: 10px 0;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+
+.presentation-name {
+    color: #00A6FB;
+}
+
+.presentation-profession {
+    color: #0582CA;
+    font-size: 3em;
+}
+
+.presentation-about-me {
+    color: #9dd5f5;
+    font-size: 1em;
+    line-height: 1.7em;
+    margin: 20px 0;
+}
+
+.presentation-button {
+    background-color: #0582ca;
+    padding: 25px 100px;
+    border-radius: 10px;
+    border-bottom-right-radius: 35px;
+    color: #9dd5f5;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    transition: background-color 200ms ease-in-out, color 200ms ease-in-out, transform 200ms;
+}
+
+.presentation-button:hover {
+    background-color: #00A6FB;
+    color: #051923;
+    transform: scale(1.03);
+}

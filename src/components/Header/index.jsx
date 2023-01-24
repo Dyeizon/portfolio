@@ -1,7 +1,7 @@
 import { Container } from 'react-bootstrap';
 import './header.css';
 
-export const Header = (props) => {
+export const Header = () => {
     return (
         <Container>
             <header>
