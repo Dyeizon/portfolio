@@ -3,12 +3,12 @@ import './index.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { CurrentPageHandler } from './CurrentPageHandler';
+import { App } from './App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <CurrentPageHandler/>
+      <App/>
   </React.StrictMode>
 );
