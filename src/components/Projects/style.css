@@ -1,0 +1,25 @@
+.projects {
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+}
+/* Cards */
+.cards {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.card {
+    background-color: var(--aux-color);
+}
+
+.image-div {
+    width: fit-content;
+}
+
+.project-card-buttons {
+    display: flex;
+    justify-content: space-around;
+}

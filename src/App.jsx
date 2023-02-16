@@ -1,4 +1,4 @@
-
+import './index.css';
 import { RoutesHandler } from './routes/RoutesHandler';
 
 import { BrowserRouter } from 'react-router-dom';

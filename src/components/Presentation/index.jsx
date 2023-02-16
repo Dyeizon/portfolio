@@ -1,10 +1,9 @@
-import { Container } from 'react-bootstrap';
-import './presentation.css';
+import './style.css';
 import { Link } from 'react-router-dom';
 
 export const Presentation = () => {
     return (
-        <Container>
+        <div className='container'>
             <section className='presentation'>
                 <div>
                     <h2>Hey, my name is</h2>
@@ -14,6 +13,6 @@ export const Presentation = () => {
                     <Link to="/projects"><button className='presentation-button'>My Projects</button></Link>
                 </div>
             </section>
-        </Container>
+        </div>
     );
 }

@@ -1,27 +1,26 @@
 .presentation {
-    height: 100vh;
+    height: calc(100vh - var(--header-height));
     font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
-    margin-top: -80px;
 }
 
-h2 {
+.presentation h1 {
+    font-size: 3em;
+    margin: 10px 0;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+
+.presentation h2 {
     color: #0582CA;
     letter-spacing: 5px;
     word-spacing: 10px;
     font-size: 1.2em;
 }
 
-h1 {
-    font-size: 5em;
-    margin: 10px 0;
-    letter-spacing: 3px;
-    word-spacing: 10px;
-}
-
 .presentation-name {
-    color: #00A6FB;
+    color: var(--aux-color);;
 }
 
 .presentation-profession {
