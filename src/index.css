@@ -14,6 +14,7 @@
 :root {
 	--theme-color: #051923;
 	--aux-color: #00A6FB;
+	--minor-color: #9dd5f5;
 }
 
 /* Reset CSS */
@@ -37,16 +38,16 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+html, body {
+	height: 100%;
+}
+
 body {
 	line-height: 1;
 }
 
 ol, ul {
 	list-style: none;
-}
-
-#root {
-	background-color: var(--theme-color);
 }
 
 * {

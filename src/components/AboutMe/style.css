@@ -1,0 +1,28 @@
+.aboutme {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - var(--header-height));
+}
+
+.aboutme-photo-div {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutme-photo-img {
+    border: 3px solid var(--aux-color);
+    border-radius: 100%;
+    width: 350px;
+    height: 350px;
+}
+
+.aboutme-info {
+    color: var(--minor-color);
+    width: 60%;
+    line-height: 1.8;
+}
+
+.aboutme-info p {
+    margin: 5px 0;
+}
