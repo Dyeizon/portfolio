@@ -7,6 +7,7 @@ import { Card } from './Card';
 export const Projects = () => {
     return (
         <div className='container'>
+            <h1 className='projects-title text-center'>My Projects</h1>
             <div className="projects">
                 <div className="cards">
                     <Card src={arcannus} title="Arcannus" siteHref="https://dyeizon-arcannus.netlify.app" githubHref="https://github.com/Dyeizon/arcannus"/>

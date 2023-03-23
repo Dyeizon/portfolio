@@ -1,22 +1,25 @@
+.projects-title {
+    color: var(--aux-color);
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
 .projects {
-    height: calc(100vh - 80px);
     display: flex;
     align-items: center;
 }
 /* Cards */
 .cards {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    gap: 3rem;
-}
-.card {
-    background-color: var(--aux-color);
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, auto));
+    gap: 2em;
 }
 
-.image-div {
-    width: fit-content;
+.card {
+    background-color: var(--aux-color);
 }
 
 .project-card-buttons {
