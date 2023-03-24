@@ -20,6 +20,13 @@
 
 .card {
     background-color: var(--aux-color);
+    transition: background-color 200ms, border-radius 500ms;
+}
+
+.card:hover {
+    background-color: var(--aux-color-dark);
+    border-radius: 1rem;
+    cursor: pointer;
 }
 
 .project-card-buttons {
