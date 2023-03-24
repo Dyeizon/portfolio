@@ -13,6 +13,9 @@ export const Projects = () => {
                     <Card src={arcannus} title="Arcannus" siteHref="https://dyeizon-arcannus.netlify.app" githubHref="https://github.com/Dyeizon/arcannus"/>
                     <Card src={reactexercisesimage} title="React Exercises" siteHref="https://dyeizon-reactexercises.netlify.app/" githubHref="https://github.com/Dyeizon/react-exercises"/>
                     <Card title="Coming Soon" soon/>
+                    <Card title="Coming Soon" soon/>
+                    <Card title="Coming Soon" soon/>
+                    <Card title="Coming Soon" soon/>
                 </div>
             </div>
         </div>

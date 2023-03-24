@@ -19,6 +19,19 @@ header nav {
     height: 100%;
 }
 
+.menu-icon-button {
+    display: none;
+    border: 2px solid var(--aux-color);
+    border-radius: 100%;
+    padding: 0.5em;
+}
+
+.menu-icon-button svg {
+    stroke: var(--aux-color);
+    stroke-width: 2px;
+
+}
+
 .header-list {
     height: 100%;
     display: flex;
@@ -28,7 +41,6 @@ header nav {
 
 .header-list-item {
     display: inline-block;
-    margin-left: 40px;
     height: 100%; 
 }
 
@@ -37,10 +49,58 @@ header nav {
     color: inherit;
     border: none;
     height: 100%;
-    padding: 0 20px;
+    padding: 0 40px;
     transition: background-color 300ms ease-in-out;
 }
 
 .header-list-item button:hover {
     background-color: rgba(0, 0, 0, 0.6);
 }
+
+
+@media (max-width: 768px) {
+    .header-list {
+        display: none;
+    }
+
+    .menu-icon-button {
+        display: block;
+    }
+
+    .mobile {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-color:  var(--theme-color);
+        z-index: 1;
+    }
+
+    .mobile a button {
+        padding: 24px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+        border-top: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    .mobile a, .mobile a button {
+        height: min-content;
+        width: 100%;
+    }
+
+    .menu-icon-button {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+/* 
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
