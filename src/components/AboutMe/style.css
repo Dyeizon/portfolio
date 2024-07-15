@@ -8,12 +8,13 @@
 .aboutme-photo-div {
     display: flex;
     justify-content: center;
+    cursor: grab;
 }
 
 .aboutme-photo-img {
     border: 5px solid var(--aux-color);
     border-radius: 100%;
-    width: 70%;
+    width: 50%;
     transition: transform 200ms;
 }
 
