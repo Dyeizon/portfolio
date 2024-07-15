@@ -17,8 +17,6 @@ export const AboutMe = () => {
         }
     }, [])
 
-    
-
     return (
         <div className="container">
             <section className='aboutme'>
